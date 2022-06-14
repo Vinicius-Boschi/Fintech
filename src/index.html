@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <title>Fintech</title>
+</head>
+<body class="bg-background flex justify-center">
+
+    <main class="text-slate-50 p-10">
+        <div>
+            <h1 class="text-4xl pb-2">Crie sua conta</h1>
+            <p class="text-sm">Crie sua conta e tenha acesso exclusivo ao nosso site.</p>
+        </div>
+        
+        <div class="md:flex itemns-center">
+            <form action="#" class="text-slate-900 flex flex-col items-end">
+                <label class="text-slate-50 p-5" for="name">
+                    Nome
+                    <input class="bg-input p-1 rounded-md border border-slate-900" type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                </label>
+
+                <label class="text-slate-50 p-5" for="email">
+                    E-mail
+                    <input class="bg-input p-1 rounded-md border border-slate-900" type="email" name="email" id="email" placeholder="Digite seu email" required>
+                </label>
+
+                <label class="text-slate-50 p-5" for="city">
+                    Cidade
+                    <input class="bg-input p-1 rounded-md border border-slate-900" type="text" name="city" id="city" placeholder="Digite sua cidade" required>
+                </label>
+                
+
+                <label class="text-slate-50 p-5" for="password">
+                    Senha
+                    <input class="bg-input p-1 rounded-md border border-slate-900" type="password" name="password" id="password" placeholder="Digite sua senha" required minlength="8">
+                </label>
+                
+                <label class="text-slate-50 p-5" for="password">
+                    Repita a senha
+                    <input class="bg-input p-1 rounded-md border border-slate-900" type="password" name="password" id="rptpassword" placeholder="Repita a senha" required minlength="8">
+                </label>
+                
+                <div class="w-96 border-0 border-t border-slate-900"></div>
+
+                <div>
+                    <label for="terms">
+                        <input type="checkbox" name="terms" id="terms">
+                        Eu aceito os <span>Termos&Condições</span>
+                    </label>
+                    
+                    <label for="newsletter">
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        Se inscreva para receber nossa newletter.
+                    </label>
+                </div>
+
+            </form>
+            <div class="w-[50vw] flex flex-col justify-end">
+                <img class="-mt-24 h-screen" src="img/money picture.png" alt="money picture">
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
