@@ -16,50 +16,65 @@
         </div>
         
         <div class="md:flex itemns-center">
-            <form action="#" class="text-slate-900 flex flex-col items-end">
+            <form action="#" method="#" class="text-slate-900 flex flex-col pt-5">
                 <label class="text-slate-50 p-5" for="name">
                     Nome
-                    <input class="bg-input p-1 rounded-md border border-slate-900" type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                    <input class="bg-input p-1 rounded-md border border-slate-900 ml-20" type="text" name="name" id="name" placeholder="Digite seu nome" required>
                 </label>
 
                 <label class="text-slate-50 p-5" for="email">
                     E-mail
-                    <input class="bg-input p-1 rounded-md border border-slate-900" type="email" name="email" id="email" placeholder="Digite seu email" required>
+                    <input class="bg-input p-1 rounded-md border border-slate-900 ml-20" type="email" name="email" id="email" placeholder="Digite seu email" required>
                 </label>
 
                 <label class="text-slate-50 p-5" for="city">
                     Cidade
-                    <input class="bg-input p-1 rounded-md border border-slate-900" type="text" name="city" id="city" placeholder="Digite sua cidade" required>
+                    <input class="bg-input p-1 rounded-md border border-slate-900 ml-[4.6rem]" type="text" name="city" id="city" placeholder="Digite sua cidade" required>
                 </label>
-                
 
                 <label class="text-slate-50 p-5" for="password">
                     Senha
-                    <input class="bg-input p-1 rounded-md border border-slate-900" type="password" name="password" id="password" placeholder="Digite sua senha" required minlength="8">
+                    <input class="bg-input p-1 rounded-md border border-slate-900 ml-20" type="password" name="password" id="password" placeholder="Digite sua senha" required minlength="8">
                 </label>
                 
                 <label class="text-slate-50 p-5" for="password">
                     Repita a senha
-                    <input class="bg-input p-1 rounded-md border border-slate-900" type="password" name="password" id="rptpassword" placeholder="Repita a senha" required minlength="8">
+                    <input class="bg-input p-1 rounded-md border border-slate-900 ml-4" type="password" name="password" id="rptpassword" placeholder="Repita a senha" required minlength="8">
                 </label>
                 
-                <div class="w-96 border-0 border-t border-slate-900"></div>
+                <div class="w-full border-t border-slate-900"></div>
 
-                <div>
-                    <label for="terms">
+                <div class="text-slate-50 pt-10 flex flex-col">
+                    <label for="terms" class="p-2">
                         <input type="checkbox" name="terms" id="terms">
-                        Eu aceito os <span>Termos&Condições</span>
+                        Eu aceito os 
+                        <span class="text-terms hover:text-hoverTerms">
+                            <a href="#">
+                                Termos&Condições
+                            </a>
+                        </span>
                     </label>
-                    
-                    <label for="newsletter">
+                    <label for="newsletter" class="p-2">
                         <input type="checkbox" name="newsletter" id="newsletter">
                         Se inscreva para receber nossa newletter.
                     </label>
                 </div>
 
+                <div class="text-slate-50 text-sm flex justify-end pt-5">
+                    <button class="bg-button p-1 rounded-md border border-slate-900 w-28 hover:bg-hoverButton ease-in duration-300">Cadastre-se</button>
+                </div>
+
+                <div class="text-slate-50 text-sm pt-10 text-center">
+                    <p>
+                        Já possui uma conta? Faça o <a href="#" class="text-terms hover:text-hoverTerms">login</a>
+                    </p>
+                </div>
             </form>
-            <div class="w-[50vw] flex flex-col justify-end">
-                <img class="-mt-24 h-screen" src="img/money picture.png" alt="money picture">
+
+            <div class="h-screen border-r border-slate-900 p-1 -mt-20"></div>
+
+            <div class="flex flex-col justify-end">
+                <img class="-mt-28 m-10 h-screen border-transparent" src="img/money_picture.png" alt="money picture">
             </div>
         </div>
     </main>
