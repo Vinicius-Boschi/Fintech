@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <title>Fintech Recuperar a senha</title>
+</head>
+<body class="bg-background flex justify-center">
+
+    <main class="text-slate-50 p-10">
+        <div>
+            <h1 class="text-4xl pb-2">Recuperar senha</h1>
+            <p class="text-sm w-[35%] phone:w-[80%] tablet:w-[80%] note:w-[25%]">Insira seu e-mail para podermos te enviar o link para a recuperação da senha.</p>
+        </div>
+        
+        <div class="flex items-start">
+            <form action="#" method="#" class="text-slate-900 grid pt-5 phone:basis-0 tablet:basis-0 note:basis-0">
+                <label class="text-slate-50 p-4" for="email">
+                    E-mail
+                    <input class="bg-input text-slate-900 p-1 rounded-md border border-slate-900 ml-20 phone:ml-0 tablet:ml-0 note:ml-0" type="email" name="email" id="email" placeholder="Digite seu email" required>
+                </label>
+
+                <div class="text-slate-50 text-sm flex justify-end pt-5">
+                    <button class="bg-button p-1 rounded-md border border-slate-900 w-[7rem] h-[2rem] hover:bg-hoverButton ease-in duration-300">Resetar senha</button>
+                </div>
+
+                <div class="text-slate-50 text-sm pt-10 text-center">
+                    <p>
+                        <a href="#" class="text-terms hover:text-hoverTerms">Voltar ao inicio</a>
+                    </p>
+                </div>
+            </form>
+
+            <div class="h-screen border-r border-slate-900 p-1 -mt-24 phone:hidden tablet:hidden note:ml-[3rem]"></div>
+
+            <div class="flex flex-col justify-end phone:hidden tablet:hidden">
+                <img class="-mt-28 m-10 note:ml-[1.5rem] h-screen w-full" src="img/money_picture.png" alt="money picture">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
