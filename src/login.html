@@ -1,17 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Fintech</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <title>Fintech Login</title>
 </head>
-<body>
-    
-    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+<body class="bg-background flex justify-center">
 
+    <main class="text-slate-50 p-10">
+        <div>
+            <h1 class="text-4xl pb-2">Login</h1>
+            <p class="text-sm w-[35%] phone:w-[80%] tablet:w-[80%] note:w-[30%]">Bem vindo ao app Fintech, faça login para aproveitar melhor o aplicativo.</p>
+        </div>
+        
+        <div class="flex items-start">
+            <form action="#" method="#" class="text-slate-900 grid pt-5 phone:basis-0 tablet:basis-0 note:basis-0">
+                <label class="text-slate-50 p-4" for="email">
+                    E-mail
+                    <input class="bg-input text-slate-900 p-1 rounded-md border border-slate-900 ml-20 phone:ml-0 tablet:ml-0 note:ml-0" type="email" name="email" id="email" placeholder="Digite seu email" required>
+                </label>
+
+                <label class="text-slate-50 p-4" for="password">
+                    Senha
+                    <input class="bg-input text-slate-900 p-1 rounded-md border border-slate-900 ml-20 phone:ml-0 tablet:ml-0 note:ml-0" type="password" name="password" id="password" placeholder="Digite sua senha" required minlength="8">
+                </label>
+
+                <div class="text-end">
+                    <a href="#" class="text-terms hover:text-hoverTerms text-sm">Esqueceu a senha?</a>
+                </div>
+
+                <div class="text-slate-50 text-sm flex justify-between pt-5">
+                    <label for="terms" class="p-2">
+                        <input type="checkbox" name="terms" id="terms" class="cursor-pointer">
+                        Lembrar a senha
+                    </label>
+                    <button class="bg-button p-1 rounded-md border border-slate-900 w-[7rem] h-[2rem] hover:bg-hoverButton ease-in duration-300">Login</button>
+                </div>
+
+                <div class="w-full border-t border-slate-900 mt-4"></div>
+
+                <div class="flex justify-evenly pt-12">
+                    <a href="#">
+                        <img class="w-[70%]" src="img/google.png" alt="google">
+                    </a>
+                    <a href="#">
+                        <img class="w-[70%]" src="img/facebook.png" alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img class="w-[70%]" src="img/linkedin.png" alt="linkedin">
+                    </a>
+                </div>
+
+                <div class="text-slate-50 text-sm pt-10 text-center">
+                    <p>
+                        Não tem uma conta ainda?<a href="index.html" class="text-terms hover:text-hoverTerms"> Cadastre-se aqui</a>
+                    </p>
+                </div>
+            </form>
+
+            <div class="h-screen border-r border-slate-900 p-1 -mt-20 phone:hidden tablet:hidden"></div>
+
+            <div class="flex flex-col justify-end phone:hidden tablet:hidden">
+                <img class="-mt-28 m-10 h-screen" src="img/money_picture.png" alt="money picture">
+            </div>
+        </div>
+    </main>
 </body>
 </html>
