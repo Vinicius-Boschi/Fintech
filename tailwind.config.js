@@ -11,6 +11,11 @@ module.exports = {
         hoverButton: '#011CFF',
         hoverTerms: '#093CA3'
       },
+      screens: {
+        'phone': {'min': '375px', 'max': '480px'},
+        'tablet': {'min': '481px', 'max': '768px'},
+        'note': {'min': '769px', 'max': '1279px'}
+      }
     },
   },
   plugins: [],
