@@ -10,7 +10,9 @@ module.exports = {
         button: '#394FFE',
         hoverButton: '#011CFF',
         hoverTerms: '#093CA3',
-        remove: '#FF0404'
+        remove: '#FF5A50',
+        hoverRemove: '#FF0404',
+        textRemove: '#FF0B00'
       },
       screens: {
         'phone': {'min': '375px', 'max': '480px'},
