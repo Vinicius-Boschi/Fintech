@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <title>Fintech Editar Perfil</title>
+</head>
+<body class="bg-background flex justify-center">
+
+    <main class="text-slate-50 p-10">
+        <div>
+            <h1 class="text-4xl pb-2">Editar o perfil</h1>
+            <p class="text-sm note:w-[25%]">Edite aqui as informações do seu perfil.</p>
+        </div>
+        
+        <div class="flex items-center">
+            <form action="#" method="#" class="text-slate-900 grid pt-5 phone:basis-0 tablet:basis-0 note:basis-0">
+                <label class="text-slate-50 p-5" for="name">
+                    Nome
+                    <input class="bg-input text-slate-900 p-1 rounded-md border border-slate-900 ml-20 phone:ml-0 tablet:ml-0 note:ml-0" type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                </label>
+
+                <label class="text-slate-50 p-5" for="email">
+                    E-mail
+                    <input class="bg-input text-slate-900 p-1 rounded-md border border-slate-900 ml-20 phone:ml-0 tablet:ml-0 note:ml-0" type="email" name="email" id="email" placeholder="Digite seu email" required>
+                </label>
+
+                <label class="text-slate-50 p-5" for="city">
+                    Cidade
+                    <input class="bg-input text-slate-900 p-1 rounded-md border border-slate-900 ml-[4.6rem] phone:ml-0 tablet:ml-0 note:ml-0" type="text" name="city" id="city" placeholder="Digite sua cidade" required>
+                </label>
+
+                <label class="text-slate-50 p-5" for="password">
+                    Senha
+                    <input class="bg-input text-slate-900 p-1 rounded-md border border-slate-900 ml-20 phone:ml-0 tablet:ml-0 note:ml-0" type="password" name="password" id="password" placeholder="Digite sua senha" required minlength="8">
+                </label>
+                
+                <div class="w-full border-t border-slate-900"></div>
+
+                <div class="text-slate-50 text-sm flex justify-end pt-5">
+                    <button class="bg-remove p-1 rounded-md border border-slate-900 w-28 hover:bg-hoverButton ease-in duration-300">Salvar alterações</button>
+                </div>
+
+                <div class="text-remove">    
+                    <p>Excluir conta</p>
+                </div>
+
+                <div class="text-slate-50 text-sm flex justify-end pt-5">
+                    <button class="bg-button p-1 rounded-md border border-slate-900 w-28 hover:bg-hoverButton ease-in duration-300">Excluir conta</button>
+                </div>
+
+            </form>
+
+            <div class="h-screen border-r border-slate-900 p-1 -mt-20 phone:hidden tablet:hidden note:h-[75vw]"></div>
+
+            <div class="flex flex-col justify-end phone:hidden tablet:hidden">
+                <img class="-mt-28 m-10 h-screen w-full note:mt-[-18rem]" src="img/money_picture.png" alt="money picture">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

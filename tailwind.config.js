@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/{index.html,login.html,recuperar.html}"],
+  content: ["./src/{index.html,login.html,recuperar.html,editar_perfil.html,dashboard.html}"],
   theme: {
     extend: {
       colors: {
@@ -9,7 +9,8 @@ module.exports = {
         terms: '#005FA4',
         button: '#394FFE',
         hoverButton: '#011CFF',
-        hoverTerms: '#093CA3'
+        hoverTerms: '#093CA3',
+        remove: '#FF0404'
       },
       screens: {
         'phone': {'min': '375px', 'max': '480px'},
