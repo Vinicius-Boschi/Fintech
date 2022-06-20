@@ -24,7 +24,9 @@
 
                 <label class="text-slate-50 p-4" for="password">
                     Senha
-                    <input class="bg-input text-slate-900 p-1 rounded-md border border-slate-900 ml-20 phone:ml-0 tablet:ml-0 note:ml-0" type="password" name="password" id="password" placeholder="Digite sua senha" required minlength="8">
+                    <input class="bg-input text-slate-900 p-1 rounded-md border border-slate-900 ml-20 phone:ml-0 tablet:ml-0 note:ml-0" type="password" name="password" id="password" placeholder="Digite sua senha"  minlength="6" maxlength="12" autocomplete="current-password" onkeyup="strongPassword()" required>
+                    <img class="h-5 float-right m-2 -mx-6 cursor-pointer" id="img" src="http://i.stack.imgur.com/H9Sb2.png" alt="olho">
+                    <span class="block pt-4" id="status"></span>
                 </label>
 
                 <div class="text-end">
@@ -60,12 +62,16 @@
                 </div>
             </form>
 
-            <div class="h-screen border-r border-slate-900 p-1 -mt-20 phone:hidden tablet:hidden"></div>
+            <div class="h-screen border-r border-slate-900 p-1 -mt-20 ml-4 phone:hidden tablet:hidden"></div>
 
             <div class="flex flex-col justify-end phone:hidden tablet:hidden">
                 <img class="-mt-28 m-10 h-screen w-full" src="img/money_picture.png" alt="money picture">
             </div>
         </div>
-    </main>
+    </main>     
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
