@@ -5,6 +5,9 @@
 <h3> :dart: Objetivos do site</h3>
 Esse é um projeto de um aplicativo financeiro que estou desenvolvendo ao longo do curso de Análise e Desenvolvimento de Sistemas na <strong>FIAP</strong>.
   
+# <h3> :pencil: Dashboard</h3>  
+![dashboard](https://user-images.githubusercontent.com/74377158/174906138-fbccf3d8-1c3a-4166-bc37-7cc24861e4d0.jpg)
+
 # <h3> :pencil: Tela de Cadastro</h3>
 ![register](https://user-images.githubusercontent.com/74377158/173920167-1eb57b25-acb1-4f58-987c-46ba32356d63.png)
 
